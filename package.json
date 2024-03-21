@@ -1,0 +1,34 @@
+{
+  "name": "harumfugit",
+  "version": "1.0.0",
+  "description": "Winston's Logstash transport in UDP protocol fork from winston-logstash-ts with fix import error on tsc build",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OzellaFarrell/harumfugit.git"
+  },
+  "keywords": [
+    "typescript",
+    "library",
+    "logstash",
+    "winston"
+  ],
+  "author": "AnsleyBraun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OzellaFarrell/harumfugit.git/issues"
+  },
+  "homepage": "https://github.com/OzellaFarrell/harumfugit.git",
+  "devDependencies": {
+    "@types/debug": "^4.1.5",
+    "@types/node": "^12.0.7",
+    "typescript": "^2.9.2"
+  },
+  "dependencies": {
+    "debug": "^4.1.1",
+    "logform": "^2.1.2",
+    "winston": "^3.2.1",
+    "winston-transport": "^4.3.0"
+  }
+}
